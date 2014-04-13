@@ -1,0 +1,25 @@
+# circuit specification
+series
+# series circuit
+{
+parallel
+# parallel circuit
+{
+resistor 3.2, # simple resistor
+resistor 4.1
+},
+series
+{
+resistor 1.0,
+parallel
+{
+resistor 1.0,
+resistor 2.0
+},
+series
+{
+resistor 3.2,
+resistor 4.0
+}
+}
+}

@@ -1,0 +1,11 @@
+# Circuit specification
+series
+{
+resistor 1,
+resistor 2,
+parallel
+{
+resistor 4,
+resistor 4
+}
+}

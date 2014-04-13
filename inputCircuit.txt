@@ -1,0 +1,18 @@
+# Circuit specification
+series
+{ resistor 1, # improper format
+resistor 2,
+resistor 3
+}
+
+# Circuit specification
+series
+{
+resistor 1,
+resistor 2,
+parallel
+{
+resistor 4,
+resistor 4
+}
+}
